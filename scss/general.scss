@@ -16,3 +16,18 @@ h1 {
     text-align: center;
     padding: 20px;
 }
+
+button::after {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: white;
+    bottom: -5px;
+    right: 0;
+    transition: 0.3s;
+}
+
+button:hover::after {
+    width: 100%;
+}
