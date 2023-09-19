@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app/css/style.css">
+</head>
+<body>
+    <h1>Faktai apie F1 bolidus</h1>
+    <div class="tabs">
+        <div id="pirmas" class="tab">
+            <img src="app/images/formula-1-tires.jpg" alt="formula-1 tires">
+            <p>Daugumos įprastų automobilių padangos yra subalansuotos įveikti nuo 60 000 iki 100 000 km. Tuo tarpu Formulės 1 bolidų padangos yra keičiamos kas 90 - 120 km. Inžinieriai, norėdami bolidų padangose išlaikyti pastovų slėgį, padangas pripildo azotu. Dėl šios priežasties lenktynių metu padanga sukasi net apie 50 kartų per sekundę.</p>
+        </div>
+
+        <div id="antras" class="tab">
+            <img src="app/images/formula-1-brakes.jpg" alt="formula-1 brakes">
+            <p>Bolidai turi tvirto anglies pluošto stabdžių diskus, kurie leidžia 300km/h lekiančiam Formulė 1 bolidui sustoti vos per 4 sekundes. Stabdymo metu stabdžių diskai įkaista net iki 1200 °C:   toks karštis yra prilyginimas vidutinei ištirpusios lavos temperatūrai.</p>
+        </div>
+
+        <div id="trecias" class="tab">
+            <img src="app/images/formula-1-pit-stop.jpg" alt="formula-1 pit stop">
+            <p>Lenktynių metu bolidams atvažiuojant į boksus, aptarnaujantis personalas pripildo bolido baką daugiau nei 12 litrų degalų vos per vieną sekundę, o per kitas 4 sekundes pakeičia padangas. Neįtikėtinas greitis: visas techninio aptarnavimo procesas, nuo kurio priklauso lenktynių eiga ir rezultatai, trunka vos 5 sekundes.</p>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button onclick="showTab(event, 'pirmas')">F1 - padangos</button>
+        <button onclick="showTab(event, 'antras')">F1 - stabdžiai</button>
+        <button onclick="showTab(event, 'trecias')">F1 - aptarnavimas</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
